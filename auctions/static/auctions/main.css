@@ -1,0 +1,12 @@
+body {
+  padding: 10px;
+}
+.bid_container {
+  border: 2px solid black;
+  height: 300px;
+  width: auto;
+}
+.bid_container img {
+  float: left;
+  height: 290px;
+}
