@@ -41,7 +41,7 @@ def createListings(request):
 
 def listing(request, listing_id):
     listing = Listing.objects.get(pk=listing_id)
-    return render(request, "auctions/listing.html", lis ting)
+    return render(request, "auctions/listing.html", listing)
 
 
 def login_view(request):
